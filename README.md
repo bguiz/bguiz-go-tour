@@ -7,6 +7,10 @@
   - `go version` - make sure it outputs `go1.12.4` or higher
 - Modules
   - https://blog.golang.org/using-go-modules
+- Concurrency
+  - [Rob Pike - 'Concurrency Is Not Parallelism'](https://www.youtube.com/watch?v=cN_DpYBzKso)
+- Testing
+  - https://github.com/golang/go/wiki/TableDrivenTests
 - Development tools
   - General
     - Localhost documentation:
@@ -14,6 +18,7 @@
       - `godoc -http :9111` and then visit http://localhost:9111/pkg/ in your broswer
     - IDE support: `go get -u -v github.com/mdempsky/gocode`
     - IDE debugging: `go get -v github.com/go-delve/delve/cmd/dlv`
+    - Check for when you have not handled errors in your tests: `go get -u github.com/kisielk/errcheck`
   - For VS Code (IDE)
     - IDE extension
       - https://github.com/Microsoft/vscode-go
@@ -27,10 +32,12 @@
   - following along with the examples in the tour
   - For each file, enter `go run $FILENAME`,
     to interpret without producing a binary file on disk
-- Learn go with Tests
-  - https://github.com/quii/learn-go-with-tests
 - Go by Example
   - https://gobyexample.com/
+- Learn go with Tests
+  - https://github.com/quii/learn-go-with-tests
+- Go Koans
+  - https://github.com/cdarwin/go-koans
 
 ## Author
 
